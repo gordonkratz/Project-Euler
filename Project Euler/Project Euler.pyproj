@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>problem7.py</StartupFile>
+    <StartupFile>problem8.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -38,6 +38,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="problem7.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="problem8.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
