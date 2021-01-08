@@ -20,7 +20,8 @@ def TriangleNumberWithMinimumFactors(n):
         if(factors >= n): return triangle
         i += 1
 
-assert TriangleNumberWithMinimumFactors(5) == 28
-assert TriangleNumberWithMinimumFactors(500) == 76576500
 
 print(TriangleNumberWithMinimumFactors(500))
+
+assert TriangleNumberWithMinimumFactors(5) == 28
+assert TriangleNumberWithMinimumFactors(500) == 76576500

@@ -8,13 +8,15 @@ What is the smallest positive number that is evenly divisible by all of the numb
 import functools
 
 def LeastCommonMultiple(x, y):
-    return x*y /GreatestCommonFactor(x, y)
+    return x*y / GreatestCommonFactor(x, y)
 
 def GreatestCommonFactor(x, y):
-    if x == 0 : 
-        return y  
-    return GreatestCommonFactor(y%x, x)
+    if(y > x):
+        return GreatestCommonFactor(y, x)
 
+    while y != 0:
+        (x, y) = (y, x % y)
+    return x
 
 def LeastCommonMultipleInRange(n):
     return functools.reduce(LeastCommonMultiple, range(1, n))
