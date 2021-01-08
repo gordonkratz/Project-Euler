@@ -71,11 +71,13 @@ def lessThan1000(n):
         return lessThan100(n)
     return concat(lessThan20(hundredsdigit) + " hundred ", lessThan100(n % 100), " and ")
     
-totalLength = 0
+totalLength = len("onethousand")
 for i in range(1,1000):
     string = lessThan1000(i)
     length = len(string.replace(" ",""))
     totalLength += length
     #print(i, string, length, totalLength)
     
-print(totalLength + len("onethousand"))
+print(totalLength)
+
+assert totalLength == 21124
