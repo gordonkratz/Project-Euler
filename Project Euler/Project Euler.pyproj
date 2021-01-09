@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>17.py</StartupFile>
+    <StartupFile>18.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -43,29 +43,32 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="17.py" />
-    <Compile Include="problem9.py">
+    <Compile Include="18.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Problem1.py" />
-    <Compile Include="Problem2.py">
+    <Compile Include="9.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="problem3.py">
+    <Compile Include="1.py" />
+    <Compile Include="2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="problem4.py">
+    <Compile Include="3.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="problem5.py">
+    <Compile Include="4.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="problem6.py">
+    <Compile Include="5.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="problem7.py">
+    <Compile Include="6.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="problem8.py">
+    <Compile Include="7.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
