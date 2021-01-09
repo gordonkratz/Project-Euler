@@ -42,7 +42,6 @@ for i in range(len(graph)):
         rightWeight = graph[i-1][j].Weight if i > 0 and j < len(graph[i-1]) else 0
         currentNode.Weight = max(leftWeight, rightWeight) + currentNode.Value
         maxWeight = max(maxWeight, currentNode.Weight)
-    print()
 
 print(maxWeight)
 
