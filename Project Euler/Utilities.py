@@ -61,3 +61,5 @@ class PrimeFinder:
             self.knownPrimes.add(n)
             return True
         return False
+
+def Sum(a, b): return a + b
