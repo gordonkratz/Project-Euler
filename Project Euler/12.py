@@ -1,13 +1,6 @@
 import math
+from Utilities import *
 
-def GetNumberOfDivisors(n):
-    upperBound = int(math.sqrt(n))
-    count = 0
-    for i in range(1, upperBound):
-        if(n % i == 0): count += 1
-    count *= 2
-    if(upperBound**2 == n): count += 1
-    return count
     
 def NthTriangle(n):
     return n*(n+1) // 2
