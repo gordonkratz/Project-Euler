@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TruncatablePrimes_37.py</StartupFile>
+    <StartupFile>ChamernownesConstant_40.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -76,7 +76,13 @@
     <Compile Include="31.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="32.py">
+    <Compile Include="ChamernownesConstant_40.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IntegerRightTriangles_39.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PandigitalPrimes_32.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="33.py">
@@ -91,6 +97,9 @@
     <Compile Include="doubleBasePalindromes_36.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="pandigitalMultiples_38.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="prob21.py">
       <SubType>Code</SubType>
     </Compile>
@@ -100,7 +109,7 @@
     <Compile Include="23.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="9.py">
+    <Compile Include="SpecialPythagoreanTriplet_9.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1.py" />
