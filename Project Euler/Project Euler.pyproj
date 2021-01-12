@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>circularPrimes_35.py</StartupFile>
+    <StartupFile>TruncatablePrimes_37.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -88,6 +88,9 @@
     <Compile Include="digitFactorials_34.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="doubleBasePalindromes_36.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="prob21.py">
       <SubType>Code</SubType>
     </Compile>
@@ -120,6 +123,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="8.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TruncatablePrimes_37.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Utilities.py">

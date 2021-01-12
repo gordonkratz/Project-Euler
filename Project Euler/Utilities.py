@@ -80,3 +80,8 @@ def ListOfPermutations(allowedDigits):
     for digit in allowedDigits:
         for subResult in ListOfPermutations(list(filter(lambda x: x != digit, allowedDigits))):
             yield(digit*10**(len(allowedDigits)-1) + subResult)
+
+
+def IsPalindrome(n):
+    stringN = str(n)
+    return stringN == stringN[::-1]

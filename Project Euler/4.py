@@ -3,10 +3,7 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 
 Find the largest palindrome made from the product of two 3-digit numbers.
 """
-
-def IntIsPalindrome(n):
-    stringN = str(n)
-    return stringN == stringN[::-1]
+import Utilities
 
 
 def LargestPalindromeProductOfNumbersLessThan(n):
@@ -14,7 +11,7 @@ def LargestPalindromeProductOfNumbersLessThan(n):
     for i in range(n, 1, -1):
         for j in range(i, 1, -1):
             product = i*j
-            if(IntIsPalindrome(product) and product > currentLargest):
+            if(Utilities.IsPalindrome(product) and product > currentLargest):
                 currentLargest = product
             elif(product < currentLargest):
                 break
