@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ChamernownesConstant_40.py</StartupFile>
+    <StartupFile>26-50\pandigital prime_ 41.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,125 +21,132 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="10.py">
+    <Compile Include="1-25\10.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="11.py">
+    <Compile Include="1-25\11.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="12.py">
+    <Compile Include="1-25\12.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="13.py">
+    <Compile Include="1-25\13.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="14.py">
+    <Compile Include="1-25\14.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="15.py">
+    <Compile Include="1-25\15.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="16.py">
+    <Compile Include="1-25\16.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="17.py" />
-    <Compile Include="18.py">
+    <Compile Include="1-25\17.py" />
+    <Compile Include="1-25\18.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="19.py">
+    <Compile Include="1-25\19.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="20.py">
+    <Compile Include="1-25\20.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="24.py">
+    <Compile Include="1-25\24.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="25.py">
+    <Compile Include="1-25\25.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="26.py">
+    <Compile Include="26-50\26.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="27.py">
+    <Compile Include="26-50\27.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="28.py">
+    <Compile Include="26-50\NumberSpirals_28.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="29.py">
+    <Compile Include="26-50\29.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="30.py">
+    <Compile Include="26-50\30.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="31.py">
+    <Compile Include="26-50\31.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ChamernownesConstant_40.py">
+    <Compile Include="26-50\ChamernownesConstant_40.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="IntegerRightTriangles_39.py">
+    <Compile Include="26-50\IntegerRightTriangles_39.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PandigitalPrimes_32.py">
+    <Compile Include="26-50\pandigital prime_ 41.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="33.py">
+    <Compile Include="26-50\PandigitalProducts_32.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="circularPrimes_35.py">
+    <Compile Include="26-50\33.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="digitFactorials_34.py">
+    <Compile Include="26-50\circularPrimes_35.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="doubleBasePalindromes_36.py">
+    <Compile Include="26-50\digitFactorials_34.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pandigitalMultiples_38.py">
+    <Compile Include="26-50\doubleBasePalindromes_36.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="prob21.py">
+    <Compile Include="26-50\pandigitalMultiples_38.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="22.py">
+    <Compile Include="1-25\prob21.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="23.py">
+    <Compile Include="1-25\22.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="SpecialPythagoreanTriplet_9.py">
+    <Compile Include="1-25\23.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="1.py" />
-    <Compile Include="2.py">
+    <Compile Include="26-50\SpecialPythagoreanTriplet_9.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="3.py">
+    <Compile Include="1-25\1.py" />
+    <Compile Include="1-25\2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="4.py">
+    <Compile Include="1-25\3.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="5.py">
+    <Compile Include="1-25\4.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="6.py">
+    <Compile Include="1-25\5.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="7.py">
+    <Compile Include="1-25\6.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8.py">
+    <Compile Include="1-25\7.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="TruncatablePrimes_37.py">
+    <Compile Include="1-25\8.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="26-50\TruncatablePrimes_37.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Utilities.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="1-25\" />
+    <Folder Include="26-50\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
