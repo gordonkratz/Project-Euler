@@ -6,17 +6,11 @@ What is the smallest positive number that is evenly divisible by all of the numb
 """
 
 import functools
+from Utilities import GreatestCommonFactor
 
 def LeastCommonMultiple(x, y):
     return x*y / GreatestCommonFactor(x, y)
 
-def GreatestCommonFactor(x, y):
-    if(y > x):
-        return GreatestCommonFactor(y, x)
-
-    while y != 0:
-        (x, y) = (y, x % y)
-    return x
 
 def LeastCommonMultipleInRange(n):
     return functools.reduce(LeastCommonMultiple, range(1, n))

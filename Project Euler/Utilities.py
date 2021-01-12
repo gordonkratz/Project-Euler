@@ -63,3 +63,12 @@ class PrimeFinder:
         return False
 
 def Sum(a, b): return a + b
+
+
+def GreatestCommonFactor(x, y):
+    if(y > x):
+        return GreatestCommonFactor(y, x)
+
+    while y != 0:
+        (x, y) = (y, x % y)
+    return x
