@@ -72,3 +72,11 @@ def GreatestCommonFactor(x, y):
     while y != 0:
         (x, y) = (y, x % y)
     return x
+
+def ListOfPermutations(allowedDigits):
+    if(len(allowedDigits) == 1):
+        yield(allowedDigits[0])
+        return
+    for digit in allowedDigits:
+        for subResult in ListOfPermutations(list(filter(lambda x: x != digit, allowedDigits))):
+            yield(digit*10**(len(allowedDigits)-1) + subResult)
