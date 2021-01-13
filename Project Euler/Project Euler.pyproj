@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>26-50\pandigital prime_ 41.py</StartupFile>
+    <StartupFile>26-50\subStringDivisibility_43.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -64,6 +64,9 @@
     <Compile Include="26-50\27.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="26-50\codedTriangleNumbers_42.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="26-50\NumberSpirals_28.py">
       <SubType>Code</SubType>
     </Compile>
@@ -106,7 +109,7 @@
     <Compile Include="1-25\prob21.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="1-25\22.py">
+    <Compile Include="1-25\NamesScores_22.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1-25\23.py">
@@ -135,6 +138,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1-25\8.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="26-50\subStringDivisibility_43.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="26-50\TruncatablePrimes_37.py">

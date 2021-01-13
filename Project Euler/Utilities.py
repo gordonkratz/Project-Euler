@@ -1,4 +1,4 @@
-import math
+import math, functools
 
 def GeneratePrimesUpTo(n):
     if n == 2: return [2]
@@ -49,11 +49,18 @@ def GreatestCommonFactor(x, y):
         (x, y) = (y, x % y)
     return x
 
-def ListOfPermutations(allowedDigits):
+def ListOfPermutations(allowedDigits, disallowedDigitsInPosition=dict()):
     if(len(allowedDigits) == 1):
-        yield(allowedDigits[0])
+        if(0 in disallowedDigitsInPosition 
+           and allowedDigits[0] in disallowedDigitsInPosition[0]):
+            yield None
+        else:
+            yield(allowedDigits[0])
         return
     for digit in allowedDigits:
+        if(digit in disallowedDigitsInPosition
+           and len(allowedDigits) - 1 in disallowedDigitsInPosition[digit]):
+            continue
         for subResult in ListOfPermutations(list(filter(lambda x: x != digit, allowedDigits))):
             yield(digit*10**(len(allowedDigits)-1) + subResult)
 
@@ -61,3 +68,23 @@ def ListOfPermutations(allowedDigits):
 def IsPalindrome(n):
     stringN = str(n)
     return stringN == stringN[::-1]
+
+def FileSplit(f, delim=',', bufsize=1024):
+    prev = ''
+    while True:
+        s = f.read(bufsize)
+        if not s:
+            break
+        split = s.split(delim)
+        if len(split) > 1:
+            yield prev + split[0]
+            prev = split[-1]
+            for x in split[1:-1]:
+                yield x
+        else:
+            prev += s
+    if prev:
+        yield prev
+
+def NumericScore(word):
+    return functools.reduce(lambda acc, letter: acc + ord(letter) - 64, word, 0)
