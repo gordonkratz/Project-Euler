@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>26-50\subStringDivisibility_43.py</StartupFile>
+    <StartupFile>26-50\GoldbachsOther_46.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -67,6 +67,9 @@
     <Compile Include="26-50\codedTriangleNumbers_42.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="26-50\GoldbachsOther_46.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="26-50\NumberSpirals_28.py">
       <SubType>Code</SubType>
     </Compile>
@@ -115,6 +118,9 @@
     <Compile Include="1-25\23.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="26-50\Pentagon Numbers44.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="26-50\SpecialPythagoreanTriplet_9.py">
       <SubType>Code</SubType>
     </Compile>
@@ -143,7 +149,13 @@
     <Compile Include="26-50\subStringDivisibility_43.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="26-50\TrianglePentagonalHexagonal_45.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="26-50\TruncatablePrimes_37.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tests\PrimeFinderTests.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Utilities.py">
@@ -153,6 +165,7 @@
   <ItemGroup>
     <Folder Include="1-25\" />
     <Folder Include="26-50\" />
+    <Folder Include="Tests\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
