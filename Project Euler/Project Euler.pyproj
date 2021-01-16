@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>26-50\Pentagon Numbers44.py</StartupFile>
+    <StartupFile>26-50\47_DistinctPrimeFactors.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -65,6 +65,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="26-50\codedTriangleNumbers_42.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="26-50\47_DistinctPrimeFactors.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="26-50\GoldbachsOther_46.py">
