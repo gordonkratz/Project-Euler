@@ -32,7 +32,7 @@ def TryGetSequenceLessThan(n, mFactors):
             if(consecutiveCount == mFactors):
                 return iCandidate
             continue
-       #reset
+        #reset
         consecutiveCount = 0
         iCandidate = i + 1
        
@@ -42,5 +42,6 @@ assert TryGetSequenceLessThan(1000, 3) == 644
 
 answer = TryGetSequenceLessThan(1000000, 4)
 print(answer)
+assert asnwer == 134043
 
 

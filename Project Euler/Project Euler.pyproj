@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>26-50\47_DistinctPrimeFactors.py</StartupFile>
+    <StartupFile>51-75\51_PrimeDigitReplacements.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -62,6 +62,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="26-50\27.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="26-50\48_SelfPowers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="26-50\49_PrimePermutations.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="26-50\50_ConsecutivePrimeSum.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="26-50\codedTriangleNumbers_42.py">
@@ -158,6 +167,9 @@
     <Compile Include="26-50\TruncatablePrimes_37.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="51-75\51_PrimeDigitReplacements.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Tests\PrimeFinderTests.py">
       <SubType>Code</SubType>
     </Compile>
@@ -168,6 +180,7 @@
   <ItemGroup>
     <Folder Include="1-25\" />
     <Folder Include="26-50\" />
+    <Folder Include="51-75\" />
     <Folder Include="Tests\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

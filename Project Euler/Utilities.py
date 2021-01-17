@@ -1,4 +1,4 @@
-import math, functools
+import math, functools, itertools
 
 def GeneratePrimesUpTo(n):
     if n == 2: return [2]
@@ -108,3 +108,16 @@ def Hexagonal(i):
 
 def IsHexagonal(p):
     return (1 + math.sqrt(1+8*p)) % 4 == 0
+
+def roundrobin(*iterables):
+    "roundrobin('ABC', 'D', 'EF') --> A D E B F C"
+    # Recipe credited to George Sakkis
+    pending = len(iterables)
+    nexts = itertools.cycle(iter(it).__next__ for it in iterables)
+    while pending:
+        try:
+            for next in nexts:
+                yield next()
+        except StopIteration:
+            pending -= 1
+            nexts = itertools.cycle(itertools.islice(nexts, pending))
