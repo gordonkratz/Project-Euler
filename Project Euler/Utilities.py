@@ -121,3 +121,17 @@ def roundrobin(*iterables):
         except StopIteration:
             pending -= 1
             nexts = itertools.cycle(itertools.islice(nexts, pending))
+
+def allEqual(iterator):
+    iterator = iter(iterator)
+    try:
+        first = next(iterator)
+    except StopIteration:
+        return True
+    return all(first == rest for rest in iterator)
+
+def SequentialCompare(iterLeft, iterRight):
+    for pair in zip(iterLeft, iterRight):
+        if(pair[0] != pair[1]):
+            return -1 if pair[0] > pair[1] else 1
+    return 0

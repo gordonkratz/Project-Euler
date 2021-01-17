@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>51-75\51_PrimeDigitReplacements.py</StartupFile>
+    <StartupFile>51-75\54_PokerHands.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -168,6 +168,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="51-75\51_PrimeDigitReplacements.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="51-75\52_permutedMultiples.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="51-75\53_CombinatoricSolutions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="51-75\54_PokerHands.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Tests\PrimeFinderTests.py">
