@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>51-75\54_PokerHands.py</StartupFile>
+    <StartupFile>51-75\56_PowerfulDigitSum.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -39,7 +39,7 @@
     <Compile Include="1-25\15.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="1-25\16.py">
+    <Compile Include="1-25\16_PowerDigitSum.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1-25\17.py" />
@@ -177,6 +177,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="51-75\54_PokerHands.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="51-75\55_LychrelNumber.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="51-75\56_PowerfulDigitSum.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Tests\PrimeFinderTests.py">
