@@ -1,4 +1,4 @@
-import math, functools, itertools
+import math, functools, itertools, networkx as nx
 
 def Sum(a, b): return a + b
 def Product(a, b): return a * b
@@ -54,14 +54,14 @@ def NumericScore(word):
     return functools.reduce(lambda acc, letter: acc + ord(letter) - 64, word, 0)
 
 def Pentagonal(i):
-    return (3*i**2 - i)/2
+    return (3*i**2 - i)//2
 
 def IsPentagonal(p):
     x = (1 + 2*math.sqrt(.25 + 6*p))/6
     return x.is_integer() and x > 0
 
 def Triangle(i):
-    return (i**2 + i)/2
+    return (i**2 + i)//2
 
 def IsTriangular(p):
     return (math.sqrt(.25+2*p)-.5).is_integer()
@@ -71,6 +71,19 @@ def Hexagonal(i):
 
 def IsHexagonal(p):
     return (1 + math.sqrt(1+8*p)) % 4 == 0
+
+def Square(i):
+    return i**2
+
+def IsSquare(i):
+    return math.sqrt(i).is_integer()
+
+def Heptagonal(i):
+    return (5*i**2-3*i)//2
+
+
+def Octagonal(i):
+    return 3*i**2-2*i
 
 def roundrobin(*iterables):
     "roundrobin('ABC', 'D', 'EF') --> A D E B F C"
@@ -103,3 +116,31 @@ def GetOrAdd(dict, key, createFunc):
     if(key not in dict):
         dict[key] = createFunc()
     return dict[key]
+
+def GetKCliques(graph, tarketK):
+    cliques = [{i, j} for i, j in graph.edges() if i != j]
+    k = 2    
+    while k < tarketK:        
+        # merge k-cliques into (k+1)-cliques
+        cliques_1 = set()
+        for c in cliques:
+            edges = None
+            for v in c:
+                if(edges == None):
+                    edges = set(map(lambda t: t[1], graph.edges(v)))
+                else:
+                    edges = edges.intersection(set(map(lambda t: t[1], graph.edges(v))))
+            for e in edges:
+                toAdd = tuple(c.union({e}))
+                cliques_1.add(toAdd)
+        # remove duplicates
+        cliques = list(map(set, cliques_1))
+        k += 1
+    return cliques
+
+def countSetBits(n): 
+    count = 0
+    while (n): 
+        n &= (n-1)  
+        count+= 1
+    return count 
