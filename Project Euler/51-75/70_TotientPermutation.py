@@ -1,12 +1,10 @@
+import Utilities
 
 def MinimizedQuotientOfPermutedTotient(nMax):
-    phi = list(i for i in range(0, nMax+1))
+    phi = Utilities.GenerateTotientValues(nMax)
     minN = 0
     quotientMin = nMax
     for i in range(2, len(phi)):
-        if(phi[i] == i):
-            for j in range(i, nMax+1, i):
-                phi[j] -= phi[j] // i
         if(i/phi[i] < quotientMin):
             input = sorted(str(i))
             output = sorted(str(phi[i]))

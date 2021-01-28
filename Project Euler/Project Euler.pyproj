@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>51-75\70_TotientPermutation.py</StartupFile>
+    <StartupFile>51-75\71_OrderedFractions.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -222,6 +222,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="51-75\70_TotientPermutation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="51-75\71_OrderedFractions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="51-75\72_CountingFractions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="51-75\73_CountingFractionsInRange.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="primetools.py">

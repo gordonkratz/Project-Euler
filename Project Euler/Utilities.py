@@ -4,6 +4,8 @@ def Sum(a, b): return a + b
 def Product(a, b): return a * b
 
 
+def LeastCommonMultiple(x, y):
+    return x*y / GreatestCommonFactor(x, y)
 
 def GreatestCommonFactor(x, y):
     if(y > x):
@@ -144,3 +146,11 @@ def countSetBits(n):
         n &= (n-1)  
         count+= 1
     return count 
+
+def GenerateTotientValues(nMax):
+    phi = list(i for i in range(0, nMax+1))
+    for i in range(2, len(phi)):
+        if(phi[i] == i):
+            for j in range(i, nMax+1, i):
+                phi[j] -= phi[j] // i
+    return phi

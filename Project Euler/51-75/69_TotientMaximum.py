@@ -1,10 +1,7 @@
+import Utilities
 
 def HighestTotientQuotientOverRange(nMax):
-    phi = list(i for i in range(0, nMax+1))
-    for i in range(2, len(phi)):
-        if(phi[i] == i):
-            for j in range(i, nMax+1, i):
-                phi[j] -= phi[j] / i
+    phi = Utilities.GenerateTotientValues(nMax)
     maxN = 0
     quotientMax = 0
     for i in range(1, len(phi)):
