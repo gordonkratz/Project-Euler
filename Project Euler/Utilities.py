@@ -154,3 +154,10 @@ def GenerateTotientValues(nMax):
             for j in range(i, nMax+1, i):
                 phi[j] -= phi[j] // i
     return phi
+
+def FareySequence(n: int):
+    (a, b, c, d) = (0, 1, 1, n)
+    while (c < n and c != d):
+        k = (n + b) // d
+        (a, b, c, d) = (c, d, k * c - a, k * d - b)
+        yield (a, b)
