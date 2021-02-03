@@ -1,3 +1,5 @@
+import Utilities
+
 changeValues = [200, 100, 50, 20, 10, 5, 2, 1]
 
 def FindChange(value, coins):
@@ -13,13 +15,13 @@ def FindChange(value, coins):
     return combos[-1] 
 
 
-assert FindChange(0, changeValues) == 1       
-assert FindChange(10, [1]) == 1
-assert FindChange(9, [2]) == 0
-assert FindChange(10, changeValues) == 11
+assert Utilities.FindSums(0, changeValues) == 1       
+assert Utilities.FindSums(10, [1]) == 1
+assert Utilities.FindSums(9, [2]) == 0
+assert Utilities.FindSums(10, changeValues) == 11
 
 
-answer = FindChange(200, changeValues)
+answer = Utilities.FindSums(200, changeValues)
 print(answer)
 assert answer == 73682
 

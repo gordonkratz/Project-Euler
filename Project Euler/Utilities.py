@@ -161,3 +161,15 @@ def FareySequence(n: int):
         k = (n + b) // d
         (a, b, c, d) = (c, d, k * c - a, k * d - b)
         yield (a, b)
+
+def FindSums(target, allowedValues):
+    combos = [0]*(target+1)
+    allowedValues.sort()
+    combos[0] = 1
+    for i in range(len(allowedValues)):
+        for j in range(allowedValues[i], target + 1):
+            diff = j - allowedValues[i]
+            if(diff < 0):
+                continue
+            combos[j] += combos[diff]
+    return combos[-1] 

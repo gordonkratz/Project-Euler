@@ -1,15 +1,11 @@
-def FindSums(value):
-    combos = [0]*(value+1)
-    combos[0] = 1
-    for i in range(1, value):
-        for j in range(i, value+1):
-            diff = j - i
-            combos[j] += combos[diff]
-    return combos[-1] 
+import Utilities
+
+def FindCountingSums(value):
+    return Utilities.FindSums(value, [i for i in range(1, value)])
 
 
-assert FindSums(5) == 6
+assert FindCountingSums(5) == 6
 
-answer = FindSums(100)
+answer = FindCountingSums(100)
 print (answer)
-assert asnswer == 190569291
+assert answer == 190569291
