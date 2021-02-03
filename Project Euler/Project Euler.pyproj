@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>51-75\75_SingularIntegerRightTriangles.py</StartupFile>
+    <StartupFile>75-100\76_CountingSummations.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -239,6 +239,9 @@
     <Compile Include="51-75\75_SingularIntegerRightTriangles.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="75-100\76_CountingSummations.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="primetools.py">
       <SubType>Code</SubType>
     </Compile>
@@ -262,6 +265,7 @@
     <Folder Include="1-25\" />
     <Folder Include="26-50\" />
     <Folder Include="51-75\" />
+    <Folder Include="75-100\" />
     <Folder Include="Tests\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
