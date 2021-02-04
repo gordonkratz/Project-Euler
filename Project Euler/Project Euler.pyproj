@@ -263,6 +263,9 @@
     <Compile Include="75-100\83_PathSumFourWays.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="MatrixTools.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="primetools.py">
       <SubType>Code</SubType>
     </Compile>
