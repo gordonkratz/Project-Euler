@@ -173,3 +173,12 @@ def FindSums(target, allowedValues):
                 continue
             combos[j] += combos[diff]
     return combos[-1] 
+
+def MergeIntDictionaries(left: dict, right: dict):
+    copy = left
+    for key, value in right.items():
+        if(key in copy):
+            copy[key] += value
+        else:
+            copy[key] = value
+    return copy
