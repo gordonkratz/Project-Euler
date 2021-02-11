@@ -50,16 +50,10 @@ def BruteForceKnowns(nMax):
                     knowns.add((x, y, z))
     return knowns
 
-def Count(iters):
-     count = 0 
-     for i in iters:
-         count += 1
-     return count
-
 assert len(list(GenerateCubesWithIntegerPath(100))) == 2060
 
 def FilteredCount(list, m):
-    return Count(filter(lambda cube: cube[0] <= m and cube[1] <= m and cube[2] <= m, list))
+    return Utilities.Count(filter(lambda cube: cube[0] <= m and cube[1] <= m and cube[2] <= m, list))
 
 def Hunt(target):
     upper = 2* math.ceil(math.sqrt(target))

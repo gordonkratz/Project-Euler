@@ -52,4 +52,30 @@ def GetPrimesFromFile(nMax):
             primes.append(value)
     return primes
         
-        
+class PrimeFactorizer:
+    primes = list()
+    knownFactors = dict()
+
+    def __init__(self, seed: int):
+        self.primes = sorted(GeneratePrimesUpTo(seed))
+
+    def GetFactors(self, n: int) -> list:
+        if(n == 1): return []
+        if(n in self.knownFactors):
+            return self.knownFactors[n]
+        if(self.primes[-1] < n // 2):
+            self.primes = sorted(GeneratePrimesUpTo(n))
+        result = []
+        next = n
+        for p in self.primes:
+            if(next == 1):
+                break
+            while(next % p == 0):
+                next = next // p
+                result.append(p)
+                if(next in self.knownFactors):
+                    result.extend(self.knownFactors[next])
+                    next = 1
+                    break
+        self.knownFactors[n] = result
+        return result

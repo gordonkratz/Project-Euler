@@ -182,3 +182,10 @@ def MergeIntDictionaries(left: dict, right: dict):
         else:
             copy[key] = value
     return copy
+
+
+def Count(iters):
+     count = 0 
+     for i in iters:
+         count += 1
+     return count
