@@ -284,6 +284,9 @@
     <Compile Include="75-100\90_CubeDigitPairs.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="75-100\91_RightTriangles.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MatrixTools.py">
       <SubType>Code</SubType>
     </Compile>
