@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>75-100\90_CubeDigitPairs.py</StartupFile>
+    <StartupFile>75-100\93_ArithmeticExpressions.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -285,6 +285,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="75-100\91_RightTriangles.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="75-100\92_SquareDigitChains.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="75-100\93_ArithmeticExpressions.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MatrixTools.py">
