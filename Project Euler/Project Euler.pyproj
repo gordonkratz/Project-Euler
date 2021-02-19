@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfeaa311-7c28-4244-9994-12e471b8c0f0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>75-100\94_AlmostEquilateralTriangles.py</StartupFile>
+    <StartupFile>75-100\95_AmicableChains.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -294,6 +294,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="75-100\94_AlmostEquilateralTriangles.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="75-100\95_AmicableChains.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MatrixTools.py">
