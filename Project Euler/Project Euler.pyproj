@@ -305,7 +305,8 @@
     <Compile Include="75-100\97_LargeNonMersennePrime.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="75-100\99_AnagramicSquares.py">
+    <Compile Include="75-100\98_AnagramicSquares.py" />
+    <Compile Include="75-100\99_LargestExponential.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MatrixTools.py">
